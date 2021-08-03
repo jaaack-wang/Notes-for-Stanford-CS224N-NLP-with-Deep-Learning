@@ -1,0 +1,1 @@
+You should download this file from https://nlp.stanford.edu/projects/glove/

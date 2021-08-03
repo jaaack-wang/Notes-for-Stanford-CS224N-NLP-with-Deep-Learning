@@ -1,0 +1,1 @@
+- glove.6B.100d.txt is empty. Placed here just so you know that you should have this file. Please download it from https://nlp.stanford.edu/projects/glove/. 
