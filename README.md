@@ -87,3 +87,67 @@ The "Table of Contents" below are structures of my notes taken for lectures that
         - 5.2.2 Partial derivatives computation in Jacobian Matrix
         - 5.2.3 Shape convention
 - 6. References
+
+## Lecture 4-Backpropagation
+
+- 1. Casual takeaways
+- 2. Derivative with regard to a weight matrix
+    - 2.1 An shallow neural network example
+    - 2.2 Let's derive
+        - 2.2.1 With regard to W
+        - 2.2.2 With regard to b
+    - 2.3 Tips for deriving gradients
+    - 2.4 Updating weights: gradient descent
+    - 2.5 Transfer learning: using pre-trained parameters
+- 3. Computation graph and backpropagation
+    - 3.1 Overview
+    - 3.2 An example
+    - 3.3 Generalization of computation graph in neural networks
+    - 3.4 Debugging
+- 4. General tricks: regularization, nonlinearities, hyperparmeters etc.
+    - 4.1 Regularization
+    - 4.2 Vectorization
+    - 4.3 Non-linearities: activation functions
+    - 4.4 Parameter Initialization
+    - 4.5 Optimizers
+    - 4.6 Learning rate
+- 5. References
+- 6. Appendix
+    - 6.1 Notations
+    - 6.2 A quick and general solution
+    - 6.3 Sigmoid function
+    - 6.4 Softmax function
+
+## Lecture 5-Dependency Parsing
+
+- 1. Casual takeaways
+- 2. Syntactic structure: constituency and dependency
+    - 2.1 Constituency
+    - 2.2 Dependency
+    - 2.3 Sources of ambiguity related to dependency
+        - 2.3.1 Prepositional phrase attachment ambiguity
+        - 2.3.2 PP attachment ambiguities multiply
+        - 2.3.3 Coordination scope ambiguity
+        - 2.3.4 Adjectival modifier ambiguity
+        - 2.3.5 Verb phrase (VP) attachment ambiguity
+- 3. Dependency grammar and dependency structure
+    - 3.1 A bit history of dependency grammar/parsing
+    - 3.2 Dependency grammar and its graphic representation
+    - 3.3 Universal dependencies treebanks and annotated data
+- 4. Dependency parser
+    - 4.1 Dependency conditioning preferences
+    - 4.2 General parsing rules
+    - 4.3 Projectivity
+    - 4.4 Methods of dependency parsing
+- 5. Greedy transition-based parsing
+    - 5.1 Overview
+    - 5.2 Arc-standard transition-based parser
+    - 5.3 ML transition-based parser
+    - 5.4 Evaluation of accuracy
+    - 5.5 Problems
+- 6. Neural dependency parser
+    - 6.1 General idea
+    - 6.2 Preprocessing
+    - 6.3 Model architecture
+    - 6.4 Comparison
+- 7. References
