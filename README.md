@@ -12,6 +12,18 @@ The "Table of Contents" below are structures of my notes taken for lectures that
 
 # Table of Contents
 
+- Lecture 1-Intro and Word Vectors
+- Lecture 2-Word Vectors and Word Senses
+- Lecture 3-Neural Networks
+- Lecture 4-Backpropagation
+- Lecture 5-Dependency Parsing
+- Lecture 6-Language Models and RNNs
+- Lecture 7-Vanishing Gradients and Fancy RNNs
+- Lecture 8-Translation, Seq2Seq, Attention
+- Lecture 9-Practical Tips for Projects 
+- Lecture 10-ConvNets for NLP 
+
+
 ## Lecture 1-Intro and Word Vectors
 
 - 1. Casual takeaways
@@ -151,3 +163,136 @@ The "Table of Contents" below are structures of my notes taken for lectures that
     - 6.3 Model architecture
     - 6.4 Comparison
 - 7. References
+
+
+
+
+## Lecture 6-Language Models and RNNs 
+
+- 1. Language Modeling
+    - 1.1 Overview
+    - 1.2 n-gram Language Models
+    - 1.3 Fix-window Neural Language Model
+    - 1.4 Evaluation: Perplexity
+- 2. Recurrent Neural Networks
+    - 2.1 Overview
+        - 2.1.1 Basic architeture of RNN
+        - 2.1.2 Applications
+    - 2.2 RNN Language Model
+        - 2.2.1 Example
+        - 2.2.2 Pros and cons
+        - 2.2.3 Training
+- 3. Recap
+- 4. References
+
+
+## Lecture 7-Vanishing Gradients and Fancy RNNs
+
+- 1. Vanishing gradient
+    - 1.1 Problem defined and cause
+    - 1.2 Potential problems
+    - 1.3 Possible consequences of Vanishing Gradient on RNN-LM in possible scenarios
+- 2. Exploding gradient
+    - 2.1 Problem defined and cause
+    - 2.2 Potential problems
+    - 2.3 Solutions: gradient clipping
+- 3. Long Short-Term Memory (LSTM)
+    - 3.1 Description
+    - 3.2 Graphic representation
+    - 3.3 LSTM success and replacement
+- 4. Gated Recurrent Units (GRU)
+    - 4.1 Description
+    - 4.2 LSTM vs GRU
+- 5. General solutions to vanishing/exploding gradient
+    - 5.1 Vanishing/exploding gradient in NN
+    - 5.2 Residual connections
+    - 5.3 Dense connections
+    - 5.4 Highway connections
+- 6. Bidirectional RNNs
+    - 6.1 Motivation
+    - 6.2 Structure
+    - 6.3 Restrictions
+- 7. Multi-layer RNNs (Stacked)
+    - 7.1 Description
+    - 7.2 In practice
+- 8. Summary
+- 9. References 
+
+
+## Lecture 8-Translation, Seq2Seq, Attention
+
+- 1. Pre-Neural Machine Translation
+    - 1.1 Problem defined
+    - 1.2 Early 50s: rule-based
+    - 1.3 1990s-2010s: statistical
+- 2. Neural Machine Translation
+    - 2.1 Problem defined
+    - 2.2 Seq2seq Model
+    - 2.3 Training
+    - 2.4 Decoing
+        - 2.4.1 Greedy decoding
+        - 2.4.2 Exhaustive search decoding
+        - 2.4.3 Beam search decoding
+    - 2.5 Tradeoff of NMT
+        - 2.5.1 Advantages
+        - 2.5.2 Disadvantages
+    - 2.6 Eluvation: BLEU
+- 3. Attention
+    - 3.1 Background
+    - 3.2 Graphic represenation
+    - 3.3 Equations
+    - 3.4 Benifits
+    - 3.5 Attention as a general DL technique
+    - 3.6 Remaining problems
+    -  3.7 Trend
+- 4. References 
+
+## Lecture 9-Practical Tips for Projects 
+
+- 1. Final project
+    - 1.1 Default
+    - 1.2 Two basic starting points of finding research topics
+    - 1.3 Project types
+    - 1.4 Interesting places to start
+    - 1.5 Must-haves
+    - 1.6 Where to find data
+- 2. RNNs recap
+    - 2.1 Recap of RNN
+    - 2.2 Gated Recurrent Unit Recap
+    - 2.3 Compare ungated and gated Unit
+    - 2.4 Two most important variants of gated RNN
+    - 2.5 LSTM
+- 3. MT
+    - 3.1 Problems
+    - 3.2 Solutions
+    - 3.3 MT evaluation
+    - 3.4 BLEU
+- 4. Steps of Working on a project
+- 5. References
+
+
+## Lecture 10-ConvNets for NLP 
+
+- 1. Convolutional Nerual Netwrok (CNN)
+    - 1.1 Overview
+    - 1.2 2D example
+    - 1.3 1D example
+        - 1.3.1 With padding
+        - 1.3.2 With multiple filters
+        - 1.3.3 With Stride = 2
+        - 1.3.4 k-max pooling
+        - 1.3.5 Dilated CNN
+        - 1.3.6 PyTorch implementation (example)
+- 2. Yoon Kim (2014)
+    - 2.1 Single layer CNN for sentence classification
+    - 2.2 Hyperparameters
+    - 2.3 Model Variants and results
+- 3. Model comparisons, related techniques and applications
+    - 3.1 Comparisons: Bag of Vectors, Window Model, CNNs, RNNs
+    - 3.2 Techniques
+        - 3.2.1 Batch Normalization
+        - 3.2.2 1 x 1 Convolutions
+    - 3.3 Application
+        - 3.3.1 Translation
+        - 3.3.2 POS tagging
+        - 3.3.3 Character-Aware Neural Language Models
